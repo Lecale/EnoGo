@@ -2,6 +2,7 @@ import random, strutils, terminal
 
 let contents = readFile("NeuralNet.txt").splitLines() 
 var consultations = 0
+randomize()
 
 while true :
   eraseScreen()
